@@ -74,10 +74,12 @@ header nav a{text-decoration:none}
 .tv-more .two{margin-top:16px}
 /* experience */
 .exp{display:grid;gap:0;margin-top:26px}
-.exp article{display:grid;gap:4px 28px;grid-template-columns:170px 1fr;padding:22px 0;border-top:1px solid var(--line)}
-.exp small{color:var(--mut);font-size:14px;padding-top:6px}
-.exp h3{font-size:23px;margin:0 0 4px}.exp p{margin:0;font-size:15.5px}
-@media(max-width:620px){.exp article{grid-template-columns:1fr}}
+.exp article{display:grid;gap:18px 28px;grid-template-columns:160px 1fr;padding:24px 0;border-top:1px solid var(--line);align-items:center}
+.exp article .photo{width:160px;height:150px;aspect-ratio:1}
+.exp article .photo img{object-position:50% 30%}
+.exp small{color:var(--mut);font-size:13px;padding-top:0;text-transform:uppercase;letter-spacing:.06em}
+.exp h3{font-size:22px;margin:0 0 4px}.exp p{margin:0;font-size:15px}
+@media(max-width:620px){.exp article{grid-template-columns:1fr}.exp article .photo{width:100%;height:240px;aspect-ratio:4/3}}
 .prog{margin-top:22px;font-size:15px;color:var(--mut)}.prog b{color:var(--ink);font-weight:600}
 /* gallery */
 .gal{columns:3 220px;column-gap:14px;margin-top:30px}
@@ -152,24 +154,23 @@ footer{padding:26px 0 40px;font-size:14px;color:var(--mut);text-align:center}
 <section id="experience"><div class="w">
 <h2>Workshops &amp; creative learning.</h2>
 <div class="exp">
-<article><small>18 Nov 2023</small><div><h3>Floral Watercolour at BookXcess</h3><p>A 2.5-hour beginner session at LaLaport KL, limited to 10 participants. Materials and guided practice provided.</p></div></article>
-<article><small>IIUM Arts Club</small><div><h3>Floral Watercolour at Richiamo Coffee</h3><p>An outdoor session with IIUM Arts Club. Participants explored floral wreaths and cards, then shared their work.</p></div></article>
-<article><small>16 Apr 2023</small><div><h3>Ramadhan Charity Watercolour Workshop</h3><p>With S'Perience at Picco Polo Cafe, Penang. Participants made DIY Hari Raya cards; donations went to Penang Deaf Association.</p></div></article>
-<article><small>Art Lettering</small><div><h3>Cursive Writing Workshop</h3><p>Worksheets and fountain pens. Shared on Instagram on 24 June 2024.</p></div></article>
+<article><div class="photo"><img src="assets/bookxcess-practice.jpg" alt="Floral watercolour practice at BookXcess" loading="lazy"></div><div><small>18 Nov 2023</small><h3>Floral Watercolour at BookXcess</h3><p>A 2.5-hour beginner session at LaLaport KL, limited to 10 participants. Materials and guided practice provided.</p></div></article>
+<article><div class="photo"><img src="assets/iium-group.jpg" alt="IIUM Arts Club group at Richiamo Coffee" loading="lazy"></div><div><small>IIUM Arts Club</small><h3>Floral Watercolour at Richiamo Coffee</h3><p>An outdoor session with IIUM Arts Club. Participants explored floral wreaths and cards, then shared their work.</p></div></article>
+<article><div class="photo"><img src="assets/ramadhan-charity.jpg" alt="Ramadhan Charity Watercolour Workshop" loading="lazy"></div><div><small>16 Apr 2023</small><h3>Ramadhan Charity Watercolour Workshop</h3><p>With S'Perience at Picco Polo Cafe, Penang. Participants made DIY Hari Raya cards; donations went to Penang Deaf Association.</p></div></article>
+<article><div class="photo"><img src="assets/cursive-practice.jpg" alt="Cursive writing practice sheets" loading="lazy"></div><div><small>Art Lettering</small><h3>Cursive Writing Workshop</h3><p>Worksheets and fountain pens. Shared on Instagram on 24 June 2024.</p></div></article>
+<article><div class="photo"><img src="assets/art-stone.jpg" alt="Art Stone Workshop" loading="lazy"></div><div><small>Art Workshop</small><h3>Art Stone Workshop</h3><p>A hands-on creative session exploring colour and design on stone.</p></div></article>
 </div>
-<p class="prog"><b>Programmes attended:</b> 2022 Community Based Tourism, Balai Seni Negara · 2020 Program Jelajah Keusahawanan Seni · 2018 Bengkel Seni Melakar dengan Arang, Rumah Seni Selangor · 2018 Loose Floral Watercolour Workshop, Balai Seni Negara</p>
 </div></section>
 
 <section style="padding-top:20px"><div class="w">
-<h2>Made together.</h2>
+<h2>Workshops Gallery</h2>
 <p class="mut">Real moments from the sessions: learning the basics, trying something new, leaving with work made by hand.</p>
 <div class="gal">
-<figure><div class="photo t"><img src="assets/kad-raya-card.jpg" alt="A handmade watercolour greeting card reading Selamat Hari Raya" loading="lazy"></div><figcaption>A card to keep and share</figcaption></figure>
-<figure><div class="photo l"><img src="assets/iium-group.jpg" alt="IIUM Arts Club participants with their floral watercolour paintings at Richiamo Coffee" loading="lazy"></div><figcaption>IIUM group at Richiamo Coffee</figcaption></figure>
-<figure><div class="photo s"><img src="assets/bookxcess-practice.jpg" alt="A participant practising colourful floral watercolour shapes" loading="lazy"></div></figure>
-<figure><div class="photo l"><img src="assets/iium-results.jpg" alt="Participants showing their completed floral wreaths" loading="lazy"></div><figcaption>Floral wreaths</figcaption></figure>
-<figure><div class="photo t"><img src="assets/lettering-class.jpg" alt="Art Lettering Workshop participants learning with worksheets and pens" loading="lazy"></div><figcaption>Art Lettering Workshop</figcaption></figure>
-<figure><div class="photo s"><img src="assets/iium-process.jpg" alt="Participants practising floral watercolour during the IIUM workshop" loading="lazy"></div></figure>
+<figure><div class="photo l"><img src="assets/bookxcess-practice.jpg" alt="Floral watercolour practice at BookXcess" loading="lazy"></div><figcaption>Floral Watercolour at BookXcess</figcaption></figure>
+<figure><div class="photo l"><img src="assets/iium-group.jpg" alt="IIUM Arts Club group at Richiamo Coffee" loading="lazy"></div><figcaption>Floral Watercolor with IIUM Arts Club</figcaption></figure>
+<figure><div class="photo t"><img src="assets/ramadhan-charity.jpg" alt="Ramadhan Charity Watercolour Workshop" loading="lazy"></div><figcaption>Ramadhan Charity Watercolour Workshop</figcaption></figure>
+<figure><div class="photo t"><img src="assets/cursive-practice.jpg" alt="Cursive writing practice sheets" loading="lazy"></div><figcaption>Cursive Writing Workshop</figcaption></figure>
+<figure><div class="photo t"><img src="assets/art-stone.jpg" alt="Art Stone Workshop" loading="lazy"></div><figcaption>Art Stone Workshop</figcaption></figure>
 </div>
 <details class="gal-more"><summary>View the original 2023 BookXcess workshop poster</summary><div class="photo" style="margin-top:16px;max-width:420px"><img src="assets/bookxcess-poster.jpg" alt="Original poster for the 18 November 2023 Floral Watercolour Workshop at BookXcess LaLaport" loading="lazy"></div><p class="mut" style="font-size:13px;margin-top:10px">Historical event details only. The promotional price shown is not a current workshop rate.</p></details>
 </div></section>
